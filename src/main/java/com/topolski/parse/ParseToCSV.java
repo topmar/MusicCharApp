@@ -11,7 +11,7 @@ import java.util.List;
 
 final public class ParseToCSV {
     private ParseToCSV() { }
-    static public void writeToCSV(final String filePath,
+    public static void writeToCSV(final String filePath,
                                   final List<Song> songList) {
         List<SongDTO> songDTOList = new ArrayList<>();
         for (Song song : songList) {
